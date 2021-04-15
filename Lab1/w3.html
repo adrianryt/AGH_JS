@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="myStyle.css">
+    <title>
+      w3
+    </title>
+  </head>
+  <body>
+    <nav>
+
+      
+      <div class="w3-bar w3-light-grey">
+        <button class="w3-button w3-xlarge w3-hide-medium w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small">Dziekanat</a>
+        <div class="w3-dropdown-hover">
+          <button class="w3-button w3-hide-small">Studia</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Stacjonarne</a>
+            <a href="#" class="w3-bar-item w3-button">Niestacjonarne</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-bar w3-bar-block w3-card w3-animate-top w3-hide-medium w3-hide-large " style="display: none;" id="mySidebar">
+        <a href="#" class="w3-bar-item w3-button ">Dziekanat</a>
+        <div class="w3-dropdown-hover w3-button">
+          <button class="w3-button">Studia</button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Stacjonarne</a>
+            <a href="#" class="w3-bar-item w3-button">Niestacjonarne</a>
+          </div>
+        </div>
+        
+        
+      </div>
+
+    </nav>
+
+    <main>
+      <!-- Tutaj treść strony / Here the content of the page-->
+
+      <div class="w3-container ">
+        <div class="w3-row-padding">
+          <div class="w3-col m4 s12 l4" id="card">
+            <div class="w3-card-4">
+              <header class="w3-container w3-light-grey">
+                <h1>Jan Kowalski</h1>
+              </header>
+              <img src="zdj1.jpg" alt="Alps" style="width:100%">
+              <div class="w3-container">
+                <p>Informatyka</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-col m4 s12 l4" id="card">
+            <div class="w3-card-4">
+              <header class="w3-container w3-light-grey">
+                <h1>Anna Nowak</h1>
+              </header>
+              <img src="zdj1.jpg" alt="Alps" style="width:100%">
+              <div class="w3-container">
+                <p>Elektronika</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="w3-col m4 s12 l4" id="card">
+            <div class="w3-card-4 ">
+              <header class="w3-container w3-light-grey">
+                <h1>Jerzy Zmuda</h1>
+              </header>
+              <img src="zdj1.jpg" alt="Alps" style="width:100%">
+              <div class="w3-container">
+                <p>Telekomunikacja</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+      <!-- Tutaj treść stopki / Here the content of the footer -->
+      <a href="mailto: adrianryt@student.agh.edu.pl">Adrian Ryt</a>
+    </footer>
+
+    <script>
+      function w3_open() {
+        if(document.getElementById("mySidebar").style.display === "none"){
+          document.getElementById("mySidebar").style.display = "block";
+        }
+        else
+        document.getElementById("mySidebar").style.display = "none";
+        
+      }
+      
+      </script>
+           
+
+  </body>
+</html>

@@ -1,0 +1,30 @@
+@keyframes movement {
+    0% {
+      left: 0px;
+      transform: rotate(0deg);
+    }
+
+    25%{
+        left: 100px;
+        transform: rotate(-60deg);
+    }
+
+    50%{
+        left: 200px;
+        transform: rotate(60deg);
+    }
+
+    100% {
+      left: 300px;
+      transform: rotate(0deg);
+    }
+  }
+
+ #card {
+    position: relative;
+    margin-top: 20px;
+    -webkit-animation: movement 4s alternate;
+ }
+ #mySidebar{
+     height: 160px;
+ }
