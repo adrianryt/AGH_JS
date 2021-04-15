@@ -1,0 +1,28 @@
+td { 
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+table{
+    margin: auto;
+}
+
+.red_1{
+    background-color: rgb(248, 96, 96);
+}
+.red_2{
+    background-color: rgb(235, 5, 5);
+}
+.red_3{
+    background-color: rgb(109, 2, 2);
+}
+
+.green_1{
+    background-color: rgb(94, 250, 94);
+}
+.green_2{
+    background-color: rgb(10, 190, 10);
+}
+.green_3{
+    background-color: rgb(5, 78, 5);
+}
