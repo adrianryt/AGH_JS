@@ -1,0 +1,81 @@
+.main_title{
+    text-align: center;
+}
+.main_text{
+    margin: 2% 50% 2% 7%;
+}
+.main_photo{
+    margin-top: 2%;
+    margin-right: 7%;
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+body{
+    background-image: url('background.jpg');
+}
+.card-deck{
+    margin: 2% 10% 2% 10%;
+}
+.numbers_text{
+    text-align: center;
+    margin: 2% 20% 2% 20%;
+}
+.card-img-top{
+    height: 50%;
+}
+.card-text{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.string_text{
+    text-align: center;
+}
+.string_img{
+    display: block;
+    width: 40%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boolean_text{
+    text-align: center;
+    margin: 2% 10% 2% 10%;
+}
+.true_img{
+    margin-left: 10px;
+    width: 20%;
+    float: left;
+}
+.false_img{
+    width: 20%;
+    float: right;
+    margin: 10px;
+}
+@media( max-width: 1000px ){
+    .main_photo{
+        float: none;
+        margin-left: 30%;
+    }
+    .main_text{
+        text-align: center;
+        margin: 2% 30% 2% 30%;
+    }
+    .string_img{
+        display: none;
+    }
+    .true_img{
+        float: none;
+    }
+    .false_img{
+        float: none;
+    }
+    .imgs{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+}
