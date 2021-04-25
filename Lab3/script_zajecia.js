@@ -59,12 +59,16 @@ function start(){
     
     myVar = window.setInterval(changeTwoCell , 1000);
     myVar2 = window.setInterval(changeTable , 3000);
-    window.setInterval(clearT , 30000);
+    window.setInterval(clearT , 10000);
 }
 
 function clearT(){
     clearInterval(myVar);
     clearInterval(myVar2);
+
+    for(let i = 0; i < row_Number; i++){
+        table.removeChild(table.lastChild);
+    }
 }
 
 function updateTable(){
